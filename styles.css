@@ -318,3 +318,12 @@ textarea:focus:-ms-input-placeholder {
 .footercolor1 {
     margin-top: 70px;
 }
+
+button {
+    color: white;
+    border: none;
+   margin-top: 1rem;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+}
