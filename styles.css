@@ -141,7 +141,7 @@ a {
 
 
        #projects .WesternUImage {
-           grid-column: 5/11;
+           grid-column: 5/10;
         grid-row: 1/2;
     }
     .WesternUText {
@@ -238,6 +238,7 @@ nav [class*="fa-"] {
     }
 }
 footer {
+
     width: 400px;
     margin: 0 auto;
     text-align: center;
@@ -265,8 +266,10 @@ footer ul {
       display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    margin: 0 auto;
     padding-top: 30px;
+    gap: 0.5rem;
+    width: 632px;
 
 }
 input {
@@ -276,11 +279,11 @@ input {
     border: none;
 }
 textarea {
-    display: block;
-    width: 600px;
     border-radius: 10px;
-    height: 200px;
     flex-basis: 100%;
+    width: 620px;
+    height: 200px;
+    margin-top: 10px;
 
 }
 ::placeholder, input[type="text"], textarea {
@@ -295,7 +298,9 @@ input:focus:-ms-input-placeholder { color:transparent; }
 textarea:focus::-webkit-input-placeholder {
     color: transparent;
 }
-
+textarea::placeholder {
+    padding-top: 1rem;
+}
 textarea:focus:-moz-placeholder {
     color: transparent;
 }
@@ -308,3 +313,8 @@ textarea:focus:-ms-input-placeholder {
     color: transparent;
 }
 
+
+
+.footercolor1 {
+    margin-top: 70px;
+}
